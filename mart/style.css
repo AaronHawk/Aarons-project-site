@@ -1,0 +1,31 @@
+html {
+  font-family: 'Papyrus", helvetica, arial, sans-serif;
+}
+
+td {
+  letter-spacing: 2px;
+}
+
+tbody td {
+  text-align: left;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #C0C0C0;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #808080;
+}
+
+tbody tr {
+  background-image: url(noise.png);
+}
+
+table {
+  background-color: #FF0000;
+}

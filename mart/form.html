@@ -1,0 +1,99 @@
+<html>
+	<head>
+	<link href="style.css" rel="stylesheet" type="text/css">
+		<title> Form </title>
+		
+	</head>
+	<body>
+		<form action="lm_input.php" method="POST" enctype="multipart/form-data">
+		
+		<table>
+			<tr>
+				<td style ="color:green;"> First Name
+				</td>
+				<td> <input type = "text"
+							size= "25"
+							name = "inputname"
+							value = "Aaron">
+				</td>
+			</tr>
+			<tr>
+				<td style ="color:blue;"> Last Name
+				</td>
+				<td> <input type = "text"
+							size= "25"
+							name = "inputmodel"
+							value = "Hawkins">
+				</td>
+			</tr>
+			<tr>
+				<td style ="color:green;">Price of Tea in China
+				</td>
+				<td> <input type = "number"
+							size= "25"
+							name = "inputprice"
+							value = "20000.00">
+				</td>
+			</tr>
+			<tr>
+				<td style ="color:blue;"> Description
+				</td>
+				<td> <input type = "text"
+							size= "255"
+							name = "inputdescription"
+							value = "Description of what? You decide, dear reader.">
+				</td>
+			</tr>
+	
+			<tr>
+				<td style ="color:green;"> Picture
+				</td>
+				<td> <input type = "file"
+							name = "inputlmpic"
+							accept=".jpg,.jpeg,.png">
+				</td>
+			</tr>
+			<tr>
+				<td style = "color:blue;"> Choose carefully			
+				</td> 
+				<td>
+				<input type="radio" name="choice" value="Right"> Right Choice<br>
+ 			 	<input type="radio" name="choice" value="Wrong"> Wrong Choice <br>
+  				<input type="radio" name="choice" value="Relative"> Uh-Oh! Morally Relative Choice<br>  
+  				</td>
+				</tr>
+			<tr>
+				<td style = "color:green;"> You can make more than one choice, you know. 
+				</td>
+				<td>
+				<input type="checkbox" name="box1" value="Bike"> Click this box if you want.<br>
+				<input type="checkbox" name="box2" value="Car"> This box is just begging to be clicked.<br>
+				<input type="checkbox" name="box3" value="Boat"> Click me, please. I am so lonely.<br>
+				</td>
+			</tr>
+			<tr>
+				<td style = "color:blue	;"> Choices drop down like manna from heaven.
+				</td>
+					<td>
+					<select>
+ 	 				<option value="select1">The top choice. Just gonna go with the crowd? </option>
+ 			 		<option value="select2">Choice number two. Just in case one wasn't good enough. </option>
+  					<option value="select3">Here's a third choice. Life is full of options. </option>
+  					<option value="select4">The bottom choice, for those who want to go against the flow. </option>
+					</select>
+				</td>
+				</tr>
+				
+			<tr>
+				<td style = "color:green;"> Submit this pathetic form for the webmaster to laugh at, or reset all the progress you worked so hard for?
+				</td>
+				</td>
+			
+				<td><input type="submit" value="submit"> 
+				<input type="reset" value="reset">
+			</td>
+		</tr>
+	</table>
+	</form>
+</body>
+</html>
